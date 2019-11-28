@@ -14,7 +14,7 @@
 
 
 /*needed libraries to get the function and process id*/
-#include <stio.h>
+#include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <signal.h>
@@ -78,10 +78,11 @@ int main()  /*call the main function*/
 	}
 
 	syslog(LOG_NOTICE, "DAEMON has terminated") /*locate your syslog*/
-	close /*your/syslogfile goes here*/
+	close; /*your/syslogfile goes here*/
 	
 	return EXIT_SUCCESS;
-
+	
+	{
 
 }
 
