@@ -1,5 +1,6 @@
-# daemons_example
-This code demonstrates the workings and 7 step proces of a Linux daemon. 
+# sweet_daemons
+This code demonstrates the workings and 7 step proces of a Linux daemon.
+I wrote it in a CentOS VM and it's a bit buggy so couldn't complie it.
 
 First:   Fork off the pattern process & let it terminate.
 Second:  setsid. Create a new process.
